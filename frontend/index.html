@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>VoiceMargin - Read. Speak. Remember.</title>
+    <meta name="title" content="VoiceMargin - Read. Speak. Remember." />
+    <meta name="description" content="Capture your thoughts while reading. Select text, record your voice, and sync your margin notes to Notion." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://voicemargin.densematrix.ai/" />
+    <meta property="og:title" content="VoiceMargin - Read. Speak. Remember." />
+    <meta property="og:description" content="Capture your thoughts while reading. Select text, record your voice, and sync your margin notes to Notion." />
+    <meta property="og:image" content="https://voicemargin.densematrix.ai/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://voicemargin.densematrix.ai/" />
+    <meta property="twitter:title" content="VoiceMargin - Read. Speak. Remember." />
+    <meta property="twitter:description" content="Capture your thoughts while reading. Select text, record your voice, and sync your margin notes to Notion." />
+    <meta property="twitter:image" content="https://voicemargin.densematrix.ai/og-image.png" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            typography: {
+              DEFAULT: {
+                css: {
+                  maxWidth: 'none',
+                },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Prose-like styling */
+      .prose p { margin-bottom: 1.25rem; line-height: 1.75; }
+      .prose h1 { font-size: 2.25rem; font-weight: 700; }
+      .prose h2 { font-size: 1.5rem; font-weight: 600; margin-top: 2rem; }
+      
+      /* Selection highlight */
+      ::selection {
+        background-color: #fef08a;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

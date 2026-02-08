@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://excuse.demo.densematrix.ai/sitemap.xml

@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "AI 변명 생성기",
+    "tagline": "창의적인 변명, 신선하게 생성",
+    "description": "AI를 사용하여 모든 상황에 맞는 믿을 수 있는 변명을 생성하세요. 항상 무슨 말을 해야 할지 아는 똑똑한 친구처럼."
+  },
+  "nav": {
+    "home": "홈",
+    "pricing": "가격",
+    "language": "언어"
+  },
+  "categories": {
+    "title": "어떤 상황인가요?",
+    "late": "지각",
+    "sick_leave": "병가",
+    "decline": "초대 거절",
+    "forgot": "깜빡함",
+    "deadline": "마감 놓침",
+    "meeting": "회의 불참",
+    "homework": "숙제/과제",
+    "other": "기타"
+  },
+  "urgency": {
+    "title": "얼마나 극적으로?",
+    "normal": "보통",
+    "normalDesc": "믿을 수 있고 합리적",
+    "urgent": "급함",
+    "urgentDesc": "약간 극적이지만 그럴듯함",
+    "extreme": "극단적",
+    "extremeDesc": "미친듯이 극적!"
+  },
+  "generator": {
+    "contextPlaceholder": "추가 정보 입력 (선택)...",
+    "generate": "변명 생성",
+    "generating": "입력 중...",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "noTokens": "변명이 없습니다! 계속하려면 더 구매하세요.",
+    "buyMore": "변명 더 받기",
+    "freeTrial": "무료 체험",
+    "freeTrialUsed": "무료 체험 사용됨",
+    "tokensRemaining": "{{count}}회 남음"
+  },
+  "excuse": {
+    "tone": "톤",
+    "tip": "프로 팁"
+  },
+  "pricing": {
+    "title": "변명 더 받기",
+    "subtitle": "창의적인 변명이 절대 부족하지 않아요",
+    "pack10": {
+      "name": "스타터 팩",
+      "excuses": "10회 변명",
+      "description": "가끔 필요할 때 완벽"
+    },
+    "pack30": {
+      "name": "밸류 팩",
+      "excuses": "30회 변명",
+      "description": "가성비 최고",
+      "popular": "인기"
+    },
+    "unlimited": {
+      "name": "무제한",
+      "excuses": "무제한 / 월",
+      "description": "변명 달인을 위해"
+    },
+    "buy": "구매",
+    "secure": "Creem으로 안전 결제"
+  },
+  "success": {
+    "title": "결제 완료!",
+    "message": "변명이 준비되었습니다. 생성을 시작하세요!",
+    "tokensAdded": "{{count}}회 변명이 계정에 추가되었습니다",
+    "unlimitedActivated": "30일 무제한 변명 활성화",
+    "backToHome": "생성 시작"
+  },
+  "footer": {
+    "tagline": "2025년부터 변명 생성 중",
+    "powered": "AI로 구동",
+    "disclaimer": "책임감 있게 사용하세요. 어떤 결과에도 책임지지 않습니다."
+  },
+  "errors": {
+    "generic": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "network": "네트워크 오류입니다. 연결을 확인해 주세요.",
+    "noTokens": "변명이 남아있지 않습니다. 더 구매해 주세요."
+  }
+}

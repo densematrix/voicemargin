@@ -1,0 +1,78 @@
+.lang-switcher {
+  position: relative;
+}
+
+.lang-button {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  background: transparent;
+  border: 1px solid var(--ink-light);
+  border-radius: 4px;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--ink-dark);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.lang-button:hover {
+  background: var(--paper-dark);
+  border-color: var(--ink-dark);
+}
+
+.lang-flag {
+  font-size: 1rem;
+}
+
+.lang-code {
+  font-weight: 700;
+}
+
+.lang-arrow {
+  font-size: 0.625rem;
+  color: var(--ink-light);
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  right: 0;
+  background: var(--paper-light);
+  border: 1px solid var(--ink-light);
+  border-radius: 4px;
+  box-shadow: var(--shadow-lg);
+  min-width: 140px;
+  z-index: 200;
+  overflow: hidden;
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  border: none;
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--ink-dark);
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.lang-option:hover {
+  background: var(--paper-dark);
+}
+
+.lang-option.active {
+  background: var(--ribbon-red);
+  color: var(--paper-light);
+}
+
+.lang-name {
+  flex: 1;
+}

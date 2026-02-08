@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "Generador de Excusas IA",
+    "tagline": "Excusas creativas, escritas frescas para ti",
+    "description": "Genera excusas creíbles para cualquier situación usando IA. Como tener un amigo inteligente que siempre sabe qué decir."
+  },
+  "nav": {
+    "home": "Inicio",
+    "pricing": "Precios",
+    "language": "Idioma"
+  },
+  "categories": {
+    "title": "¿Cuál es la situación?",
+    "late": "Llegar tarde",
+    "sick_leave": "Baja por enfermedad",
+    "decline": "Rechazar invitación",
+    "forgot": "Olvidé algo",
+    "deadline": "Plazo incumplido",
+    "meeting": "Reunión perdida",
+    "homework": "Tareas/Trabajos",
+    "other": "Otro"
+  },
+  "urgency": {
+    "title": "¿Qué tan dramático?",
+    "normal": "Normal",
+    "normalDesc": "Creíble y razonable",
+    "urgent": "Urgente",
+    "urgentDesc": "Un poco dramático pero plausible",
+    "extreme": "Extremo",
+    "extremeDesc": "¡Salvaje y teatral!"
+  },
+  "generator": {
+    "contextPlaceholder": "Añadir más contexto (opcional)...",
+    "generate": "Generar Excusas",
+    "generating": "Escribiendo...",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "noTokens": "¡Sin excusas! Compra más para continuar.",
+    "buyMore": "Obtener más excusas",
+    "freeTrial": "Prueba gratuita",
+    "freeTrialUsed": "Prueba gratuita usada",
+    "tokensRemaining": "{{count}} excusa(s) restante(s)"
+  },
+  "excuse": {
+    "tone": "Tono",
+    "tip": "Consejo pro"
+  },
+  "pricing": {
+    "title": "Obtén más excusas",
+    "subtitle": "Nunca te quedes sin excusas creativas",
+    "pack10": {
+      "name": "Paquete Inicial",
+      "excuses": "10 Excusas",
+      "description": "Perfecto para necesidades ocasionales"
+    },
+    "pack30": {
+      "name": "Paquete Valor",
+      "excuses": "30 Excusas",
+      "description": "Mejor valor para usuarios regulares",
+      "popular": "Más Popular"
+    },
+    "unlimited": {
+      "name": "Ilimitado",
+      "excuses": "Ilimitado / mes",
+      "description": "Para el inventor de excusas crónico"
+    },
+    "buy": "Comprar",
+    "secure": "Pago seguro vía Creem"
+  },
+  "success": {
+    "title": "¡Pago exitoso!",
+    "message": "Tus excusas están listas. ¡Comienza a generar!",
+    "tokensAdded": "{{count}} excusas añadidas a tu cuenta",
+    "unlimitedActivated": "Excusas ilimitadas activadas por 30 días",
+    "backToHome": "Comenzar a generar"
+  },
+  "footer": {
+    "tagline": "Generando excusas desde 2025",
+    "powered": "Impulsado por IA",
+    "disclaimer": "Usa responsablemente. No somos responsables de las consecuencias."
+  },
+  "errors": {
+    "generic": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "network": "Error de red. Por favor, verifica tu conexión.",
+    "noTokens": "No quedan excusas. Por favor, compra más."
+  }
+}

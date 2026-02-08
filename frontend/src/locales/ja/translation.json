@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "AI 言い訳ジェネレーター",
+    "tagline": "創造的な言い訳、新鮮に生成",
+    "description": "AIを使ってあらゆる状況に対応できる言い訳を生成。いつも何を言えばいいか知っている賢い友達のよう。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "pricing": "料金",
+    "language": "言語"
+  },
+  "categories": {
+    "title": "どんな状況？",
+    "late": "遅刻",
+    "sick_leave": "病欠",
+    "decline": "お断り",
+    "forgot": "忘れ物",
+    "deadline": "締め切り遅れ",
+    "meeting": "会議欠席",
+    "homework": "宿題・課題",
+    "other": "その他"
+  },
+  "urgency": {
+    "title": "どの程度ドラマチック？",
+    "normal": "普通",
+    "normalDesc": "信じられて妥当",
+    "urgent": "緊急",
+    "urgentDesc": "少しドラマチックだが信じられる",
+    "extreme": "極端",
+    "extremeDesc": "ワイルドで劇的！"
+  },
+  "generator": {
+    "contextPlaceholder": "詳細を追加（任意）...",
+    "generate": "言い訳を生成",
+    "generating": "入力中...",
+    "copy": "コピー",
+    "copied": "コピー完了！",
+    "noTokens": "言い訳がなくなりました！続けるには購入してください。",
+    "buyMore": "もっと取得",
+    "freeTrial": "無料体験",
+    "freeTrialUsed": "無料体験使用済み",
+    "tokensRemaining": "残り {{count}} 回"
+  },
+  "excuse": {
+    "tone": "トーン",
+    "tip": "コツ"
+  },
+  "pricing": {
+    "title": "もっと言い訳を",
+    "subtitle": "創造的な言い訳が尽きることはありません",
+    "pack10": {
+      "name": "スタートパック",
+      "excuses": "10回分",
+      "description": "たまに必要な方に"
+    },
+    "pack30": {
+      "name": "お得パック",
+      "excuses": "30回分",
+      "description": "一番お得",
+      "popular": "人気No.1"
+    },
+    "unlimited": {
+      "name": "無制限",
+      "excuses": "無制限 / 月",
+      "description": "言い訳の達人に"
+    },
+    "buy": "購入",
+    "secure": "Creemで安全に決済"
+  },
+  "success": {
+    "title": "お支払い完了！",
+    "message": "言い訳の準備ができました。生成を始めましょう！",
+    "tokensAdded": "{{count}}回分がアカウントに追加されました",
+    "unlimitedActivated": "30日間無制限が有効になりました",
+    "backToHome": "生成を開始"
+  },
+  "footer": {
+    "tagline": "2025年から言い訳を生成中",
+    "powered": "AIで動作",
+    "disclaimer": "責任を持ってご使用ください。いかなる結果にも責任を負いません。"
+  },
+  "errors": {
+    "generic": "問題が発生しました。もう一度お試しください。",
+    "network": "ネットワークエラーです。接続を確認してください。",
+    "noTokens": "言い訳の残りがありません。追加購入してください。"
+  }
+}

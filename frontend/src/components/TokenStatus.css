@@ -1,0 +1,53 @@
+.token-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--paper-dark);
+  border-radius: 4px;
+  margin-bottom: var(--space-lg);
+}
+
+.token-badge {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--ink-black);
+  color: var(--paper-light);
+  border-radius: 2px;
+}
+
+.token-status.unlimited .token-badge {
+  background: var(--ribbon-red);
+}
+
+.token-status.free-trial .token-badge {
+  background: #2e7d32;
+}
+
+.token-count {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--ink-medium);
+}
+
+.token-status.no-tokens {
+  flex-direction: column;
+  background: #fff3e0;
+  border: 1px solid #ffb74d;
+}
+
+.token-warning {
+  font-family: var(--font-typewriter);
+  color: #e65100;
+}
+
+.buy-link {
+  font-size: 0.75rem;
+  padding: var(--space-xs) var(--space-md);
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.generate-btn {
+  width: 100%;
+  padding: var(--space-md) var(--space-xl);
+  font-size: 1rem;
+  margin-top: var(--space-md);
+}
+
+.generate-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.generate-btn.loading {
+  cursor: wait;
+}
+
+.loading-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+}
+
+.typing-cursor {
+  animation: blink-caret 0.75s step-end infinite;
+  font-weight: 400;
+}
+
+@keyframes blink-caret {
+  from, to { opacity: 1 }
+  50% { opacity: 0 }
+}

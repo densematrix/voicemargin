@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "AI Excuse Generator",
+    "tagline": "Creative excuses, typed fresh for you",
+    "description": "Generate believable excuses for any situation using AI. Like having a clever friend who always knows what to say."
+  },
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "language": "Language"
+  },
+  "categories": {
+    "title": "What's the situation?",
+    "late": "Running Late",
+    "sick_leave": "Sick Leave",
+    "decline": "Declining Invitation",
+    "forgot": "Forgot Something",
+    "deadline": "Missed Deadline",
+    "meeting": "Missing Meeting",
+    "homework": "Homework/Assignment",
+    "other": "Other"
+  },
+  "urgency": {
+    "title": "How dramatic?",
+    "normal": "Normal",
+    "normalDesc": "Believable and reasonable",
+    "urgent": "Urgent",
+    "urgentDesc": "A bit dramatic but plausible",
+    "extreme": "Extreme",
+    "extremeDesc": "Wild and theatrical!"
+  },
+  "generator": {
+    "contextPlaceholder": "Add more context (optional)...",
+    "generate": "Generate Excuses",
+    "generating": "Typing...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "noTokens": "No excuses left! Purchase more to continue.",
+    "buyMore": "Get More Excuses",
+    "freeTrial": "Free Trial",
+    "freeTrialUsed": "Free trial used",
+    "tokensRemaining": "{{count}} excuse(s) remaining"
+  },
+  "excuse": {
+    "tone": "Tone",
+    "tip": "Pro tip"
+  },
+  "pricing": {
+    "title": "Get More Excuses",
+    "subtitle": "Never run out of creative excuses again",
+    "pack10": {
+      "name": "Starter Pack",
+      "excuses": "10 Excuses",
+      "description": "Perfect for occasional needs"
+    },
+    "pack30": {
+      "name": "Value Pack",
+      "excuses": "30 Excuses",
+      "description": "Best value for regular users",
+      "popular": "Most Popular"
+    },
+    "unlimited": {
+      "name": "Unlimited",
+      "excuses": "Unlimited / month",
+      "description": "For the chronic excuse-maker"
+    },
+    "buy": "Purchase",
+    "secure": "Secure payment via Creem"
+  },
+  "success": {
+    "title": "Payment Successful!",
+    "message": "Your excuses are ready. Start generating!",
+    "tokensAdded": "{{count}} excuses added to your account",
+    "unlimitedActivated": "Unlimited excuses activated for 30 days",
+    "backToHome": "Start Generating"
+  },
+  "footer": {
+    "tagline": "Generating excuses since 2025",
+    "powered": "Powered by AI",
+    "disclaimer": "Use responsibly. We're not responsible for any consequences."
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "noTokens": "No excuses remaining. Please purchase more."
+  }
+}

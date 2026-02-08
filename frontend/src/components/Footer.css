@@ -1,0 +1,31 @@
+.footer {
+  background: var(--metal-dark);
+  color: var(--paper-aged);
+  padding: var(--space-xl) 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-tagline {
+  font-family: var(--font-typewriter);
+  font-size: 0.875rem;
+  margin-bottom: var(--space-xs);
+}
+
+.footer-powered {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--metal-light);
+  margin-bottom: var(--space-md);
+}
+
+.footer-disclaimer {
+  font-family: var(--font-ui);
+  font-size: 0.625rem;
+  color: var(--metal-light);
+  max-width: 400px;
+  margin: 0 auto;
+}

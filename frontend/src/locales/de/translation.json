@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "KI-Ausreden-Generator",
+    "tagline": "Kreative Ausreden, frisch für Sie getippt",
+    "description": "Generieren Sie glaubwürdige Ausreden für jede Situation mit KI. Wie ein cleverer Freund, der immer weiß, was zu sagen ist."
+  },
+  "nav": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "language": "Sprache"
+  },
+  "categories": {
+    "title": "Was ist die Situation?",
+    "late": "Zu spät",
+    "sick_leave": "Krankmeldung",
+    "decline": "Absage",
+    "forgot": "Vergessen",
+    "deadline": "Frist verpasst",
+    "meeting": "Meeting verpasst",
+    "homework": "Hausaufgaben",
+    "other": "Sonstiges"
+  },
+  "urgency": {
+    "title": "Wie dramatisch?",
+    "normal": "Normal",
+    "normalDesc": "Glaubwürdig und vernünftig",
+    "urgent": "Dringend",
+    "urgentDesc": "Etwas dramatisch aber plausibel",
+    "extreme": "Extrem",
+    "extremeDesc": "Wild und theatralisch!"
+  },
+  "generator": {
+    "contextPlaceholder": "Mehr Kontext hinzufügen (optional)...",
+    "generate": "Ausreden generieren",
+    "generating": "Tippe...",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "noTokens": "Keine Ausreden mehr! Kaufen Sie mehr, um fortzufahren.",
+    "buyMore": "Mehr Ausreden holen",
+    "freeTrial": "Kostenlose Testversion",
+    "freeTrialUsed": "Testversion verwendet",
+    "tokensRemaining": "{{count}} Ausrede(n) übrig"
+  },
+  "excuse": {
+    "tone": "Ton",
+    "tip": "Profi-Tipp"
+  },
+  "pricing": {
+    "title": "Mehr Ausreden holen",
+    "subtitle": "Nie wieder ohne kreative Ausreden",
+    "pack10": {
+      "name": "Starter-Paket",
+      "excuses": "10 Ausreden",
+      "description": "Perfekt für gelegentliche Bedürfnisse"
+    },
+    "pack30": {
+      "name": "Wert-Paket",
+      "excuses": "30 Ausreden",
+      "description": "Bestes Preis-Leistungs-Verhältnis",
+      "popular": "Beliebteste"
+    },
+    "unlimited": {
+      "name": "Unbegrenzt",
+      "excuses": "Unbegrenzt / Monat",
+      "description": "Für den chronischen Ausredenerfinder"
+    },
+    "buy": "Kaufen",
+    "secure": "Sichere Zahlung über Creem"
+  },
+  "success": {
+    "title": "Zahlung erfolgreich!",
+    "message": "Ihre Ausreden sind bereit. Starten Sie die Generierung!",
+    "tokensAdded": "{{count}} Ausreden zu Ihrem Konto hinzugefügt",
+    "unlimitedActivated": "Unbegrenzte Ausreden für 30 Tage aktiviert",
+    "backToHome": "Generierung starten"
+  },
+  "footer": {
+    "tagline": "Generiert Ausreden seit 2025",
+    "powered": "Angetrieben von KI",
+    "disclaimer": "Verantwortungsvoll verwenden. Wir übernehmen keine Verantwortung für Konsequenzen."
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.",
+    "noTokens": "Keine Ausreden mehr vorhanden. Bitte kaufen Sie mehr."
+  }
+}

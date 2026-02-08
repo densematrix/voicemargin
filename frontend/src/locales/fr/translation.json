@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "Générateur d'Excuses IA",
+    "tagline": "Des excuses créatives, fraîchement tapées pour vous",
+    "description": "Générez des excuses crédibles pour toute situation grâce à l'IA. Comme un ami intelligent qui sait toujours quoi dire."
+  },
+  "nav": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "language": "Langue"
+  },
+  "categories": {
+    "title": "Quelle est la situation ?",
+    "late": "En retard",
+    "sick_leave": "Congé maladie",
+    "decline": "Refuser une invitation",
+    "forgot": "Oublié quelque chose",
+    "deadline": "Délai manqué",
+    "meeting": "Réunion manquée",
+    "homework": "Devoirs/Travail",
+    "other": "Autre"
+  },
+  "urgency": {
+    "title": "Niveau de dramatisation ?",
+    "normal": "Normal",
+    "normalDesc": "Crédible et raisonnable",
+    "urgent": "Urgent",
+    "urgentDesc": "Un peu dramatique mais plausible",
+    "extreme": "Extrême",
+    "extremeDesc": "Fou et théâtral !"
+  },
+  "generator": {
+    "contextPlaceholder": "Ajouter plus de contexte (optionnel)...",
+    "generate": "Générer des excuses",
+    "generating": "En train de taper...",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "noTokens": "Plus d'excuses ! Achetez-en plus pour continuer.",
+    "buyMore": "Obtenir plus d'excuses",
+    "freeTrial": "Essai gratuit",
+    "freeTrialUsed": "Essai gratuit utilisé",
+    "tokensRemaining": "{{count}} excuse(s) restante(s)"
+  },
+  "excuse": {
+    "tone": "Ton",
+    "tip": "Conseil de pro"
+  },
+  "pricing": {
+    "title": "Obtenir plus d'excuses",
+    "subtitle": "Ne soyez plus jamais à court d'excuses créatives",
+    "pack10": {
+      "name": "Pack Démarrage",
+      "excuses": "10 Excuses",
+      "description": "Parfait pour les besoins occasionnels"
+    },
+    "pack30": {
+      "name": "Pack Valeur",
+      "excuses": "30 Excuses",
+      "description": "Meilleur rapport qualité-prix",
+      "popular": "Le plus populaire"
+    },
+    "unlimited": {
+      "name": "Illimité",
+      "excuses": "Illimité / mois",
+      "description": "Pour l'inventeur d'excuses chronique"
+    },
+    "buy": "Acheter",
+    "secure": "Paiement sécurisé via Creem"
+  },
+  "success": {
+    "title": "Paiement réussi !",
+    "message": "Vos excuses sont prêtes. Commencez à générer !",
+    "tokensAdded": "{{count}} excuses ajoutées à votre compte",
+    "unlimitedActivated": "Excuses illimitées activées pour 30 jours",
+    "backToHome": "Commencer à générer"
+  },
+  "footer": {
+    "tagline": "Génère des excuses depuis 2025",
+    "powered": "Propulsé par l'IA",
+    "disclaimer": "Utilisez de manière responsable. Nous ne sommes pas responsables des conséquences."
+  },
+  "errors": {
+    "generic": "Quelque chose s'est mal passé. Veuillez réessayer.",
+    "network": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "noTokens": "Plus d'excuses restantes. Veuillez en acheter plus."
+  }
+}

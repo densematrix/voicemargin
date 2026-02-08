@@ -1,0 +1,102 @@
+{
+  "tool": "AI Excuse Generator",
+  "tool_url": "https://excuse.demo.densematrix.ai",
+  "dimensions": {
+    "situation": {
+      "name_zh": "场景",
+      "values": [
+        {"id": "work-late", "en": "Late for Work", "zh": "上班迟到"},
+        {"id": "school-late", "en": "Late for School", "zh": "上学迟到"},
+        {"id": "meeting-late", "en": "Late for Meeting", "zh": "开会迟到"},
+        {"id": "sick-leave", "en": "Calling in Sick", "zh": "请病假"},
+        {"id": "mental-health", "en": "Mental Health Day", "zh": "心理健康日"},
+        {"id": "skip-party", "en": "Skipping Party", "zh": "不去派对"},
+        {"id": "skip-dinner", "en": "Skipping Dinner", "zh": "不去聚餐"},
+        {"id": "skip-wedding", "en": "Missing Wedding", "zh": "缺席婚礼"},
+        {"id": "forgot-birthday", "en": "Forgot Birthday", "zh": "忘记生日"},
+        {"id": "forgot-anniversary", "en": "Forgot Anniversary", "zh": "忘记纪念日"},
+        {"id": "missed-deadline", "en": "Missed Deadline", "zh": "错过截止日期"},
+        {"id": "missed-meeting", "en": "Missed Meeting", "zh": "错过会议"},
+        {"id": "no-homework", "en": "No Homework", "zh": "没做作业"},
+        {"id": "skip-gym", "en": "Skipping Gym", "zh": "不去健身"},
+        {"id": "cancel-date", "en": "Canceling Date", "zh": "取消约会"},
+        {"id": "leave-early", "en": "Leaving Early", "zh": "提前离开"},
+        {"id": "wfh", "en": "Working From Home", "zh": "在家办公"},
+        {"id": "no-overtime", "en": "No Overtime", "zh": "不加班"},
+        {"id": "late-reply", "en": "Late Reply", "zh": "回复晚了"},
+        {"id": "missed-call", "en": "Missed Call", "zh": "没接电话"}
+      ]
+    },
+    "recipient": {
+      "name_zh": "借口对象",
+      "values": [
+        {"id": "boss", "en": "Boss", "zh": "老板"},
+        {"id": "manager", "en": "Manager", "zh": "经理"},
+        {"id": "coworker", "en": "Coworker", "zh": "同事"},
+        {"id": "client", "en": "Client", "zh": "客户"},
+        {"id": "teacher", "en": "Teacher", "zh": "老师"},
+        {"id": "professor", "en": "Professor", "zh": "教授"},
+        {"id": "parent", "en": "Parent", "zh": "父母"},
+        {"id": "partner", "en": "Partner", "zh": "伴侣"},
+        {"id": "friend", "en": "Friend", "zh": "朋友"},
+        {"id": "in-laws", "en": "In-Laws", "zh": "公婆"},
+        {"id": "landlord", "en": "Landlord", "zh": "房东"},
+        {"id": "doctor", "en": "Doctor", "zh": "医生"},
+        {"id": "hr", "en": "HR", "zh": "人事"},
+        {"id": "neighbor", "en": "Neighbor", "zh": "邻居"},
+        {"id": "ex", "en": "Ex", "zh": "前任"}
+      ]
+    },
+    "tone": {
+      "name_zh": "语气风格",
+      "values": [
+        {"id": "believable", "en": "Believable", "zh": "可信的"},
+        {"id": "dramatic", "en": "Dramatic", "zh": "戏剧性的"},
+        {"id": "funny", "en": "Funny", "zh": "搞笑的"},
+        {"id": "professional", "en": "Professional", "zh": "专业的"},
+        {"id": "apologetic", "en": "Apologetic", "zh": "道歉式"},
+        {"id": "creative", "en": "Creative", "zh": "创意的"},
+        {"id": "emergency", "en": "Emergency", "zh": "紧急的"},
+        {"id": "casual", "en": "Casual", "zh": "随意的"}
+      ]
+    },
+    "industry": {
+      "name_zh": "行业",
+      "values": [
+        {"id": "tech", "en": "Tech", "zh": "科技"},
+        {"id": "finance", "en": "Finance", "zh": "金融"},
+        {"id": "healthcare", "en": "Healthcare", "zh": "医疗"},
+        {"id": "education", "en": "Education", "zh": "教育"},
+        {"id": "retail", "en": "Retail", "zh": "零售"},
+        {"id": "hospitality", "en": "Hospitality", "zh": "餐饮"},
+        {"id": "legal", "en": "Legal", "zh": "法律"},
+        {"id": "creative", "en": "Creative", "zh": "创意"},
+        {"id": "startup", "en": "Startup", "zh": "创业"},
+        {"id": "consulting", "en": "Consulting", "zh": "咨询"},
+        {"id": "remote", "en": "Remote Work", "zh": "远程"},
+        {"id": "freelance", "en": "Freelance", "zh": "自由职业"}
+      ]
+    },
+    "urgency": {
+      "name_zh": "紧急程度",
+      "values": [
+        {"id": "last-minute", "en": "Last Minute", "zh": "临时"},
+        {"id": "same-day", "en": "Same Day", "zh": "当天"},
+        {"id": "advance", "en": "In Advance", "zh": "提前"},
+        {"id": "recurring", "en": "Recurring", "zh": "经常性"}
+      ]
+    },
+    "language": {
+      "name_zh": "语言",
+      "values": [
+        {"id": "en", "en": "English", "zh": "英文"},
+        {"id": "zh", "en": "Chinese", "zh": "中文"},
+        {"id": "es", "en": "Spanish", "zh": "西班牙语"},
+        {"id": "ja", "en": "Japanese", "zh": "日语"},
+        {"id": "de", "en": "German", "zh": "德语"},
+        {"id": "fr", "en": "French", "zh": "法语"}
+      ]
+    }
+  },
+  "estimated_pages": 16000
+}

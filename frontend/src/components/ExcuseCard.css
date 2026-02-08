@@ -1,0 +1,50 @@
+.excuse-card {
+  position: relative;
+  margin-bottom: var(--space-lg);
+}
+
+.excuse-number {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--ink-faded);
+}
+
+.excuse-text {
+  font-family: var(--font-typewriter);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+  padding-right: var(--space-xl);
+}
+
+.excuse-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--ink-light);
+}
+
+.excuse-tone,
+.excuse-tip {
+  background: var(--paper-dark);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 2px;
+}
+
+.excuse-tone strong,
+.excuse-tip strong {
+  color: var(--ink-dark);
+}
+
+.copy-btn {
+  float: right;
+  font-size: 0.75rem;
+  padding: var(--space-xs) var(--space-md);
+}

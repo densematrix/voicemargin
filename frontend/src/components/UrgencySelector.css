@@ -1,0 +1,80 @@
+.urgency-selector {
+  margin-bottom: var(--space-xl);
+}
+
+.urgency-title {
+  font-family: var(--font-typewriter);
+  font-size: 1.125rem;
+  margin-bottom: var(--space-md);
+  text-align: center;
+}
+
+.urgency-options {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.urgency-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--paper-light);
+  border: 2px solid var(--paper-aged);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  min-width: 120px;
+}
+
+.urgency-btn:hover {
+  border-color: var(--ink-light);
+  background: var(--paper-dark);
+}
+
+.urgency-btn.selected {
+  border-color: var(--ribbon-red);
+  background: var(--paper-light);
+  box-shadow: 0 0 0 2px var(--ribbon-red);
+}
+
+.urgency-icon {
+  font-size: 1.75rem;
+}
+
+.urgency-label {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--ink-black);
+}
+
+.urgency-desc {
+  font-family: var(--font-typewriter);
+  font-size: 0.75rem;
+  color: var(--ink-light);
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .urgency-options {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .urgency-btn {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--space-md);
+    min-width: auto;
+  }
+  
+  .urgency-desc {
+    text-align: left;
+  }
+}

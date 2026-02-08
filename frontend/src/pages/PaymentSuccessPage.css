@@ -1,0 +1,58 @@
+.success-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.success-content {
+  text-align: center;
+  max-width: 400px;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--space-lg);
+  background: #2e7d32;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.success-title {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-md);
+}
+
+.success-message {
+  color: var(--ink-medium);
+  margin-bottom: var(--space-lg);
+}
+
+.success-details {
+  margin-bottom: var(--space-lg);
+}
+
+.tokens-info {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--ink-dark);
+  padding: var(--space-md);
+  background: var(--paper-dark);
+  border-radius: 4px;
+}
+
+.tokens-info.unlimited {
+  background: var(--ribbon-red);
+  color: var(--paper-light);
+}
+
+.home-btn {
+  display: inline-block;
+  text-decoration: none;
+}

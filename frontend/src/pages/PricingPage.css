@@ -1,0 +1,121 @@
+.pricing-page {
+  padding-bottom: var(--space-2xl);
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.pricing-title {
+  font-size: 2rem;
+  margin-bottom: var(--space-sm);
+}
+
+.pricing-subtitle {
+  font-family: var(--font-ui);
+  color: var(--ink-light);
+  font-size: 1rem;
+}
+
+.loading-state {
+  text-align: center;
+  padding: var(--space-2xl);
+  font-family: var(--font-typewriter);
+  color: var(--ink-light);
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.pricing-card {
+  text-align: center;
+  position: relative;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pricing-card.popular {
+  border: 2px solid var(--ribbon-red);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ribbon-red);
+  color: var(--paper-light);
+  font-family: var(--font-ui);
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.product-name {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-sm);
+}
+
+.product-excuses {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--ink-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--space-md);
+}
+
+.product-price {
+  margin-bottom: var(--space-md);
+}
+
+.price-currency {
+  font-family: var(--font-ui);
+  font-size: 1.25rem;
+  vertical-align: top;
+  color: var(--ink-medium);
+}
+
+.price-amount {
+  font-family: var(--font-typewriter);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.product-description {
+  font-family: var(--font-typewriter);
+  font-size: 0.875rem;
+  color: var(--ink-light);
+  margin-bottom: var(--space-lg);
+  min-height: 40px;
+}
+
+.purchase-btn {
+  width: 100%;
+}
+
+.secure-notice {
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--ink-faded);
+}
+
+@media (max-width: 640px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+}

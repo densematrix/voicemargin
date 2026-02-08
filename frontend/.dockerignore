@@ -1,0 +1,15 @@
+node_modules
+dist
+coverage
+.git
+.gitignore
+*.md
+src/test
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+playwright.config.ts
+playwright-report
+test-results
+e2e
