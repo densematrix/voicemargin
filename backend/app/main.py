@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 from prometheus_fastapi_instrumentator import Instrumentator
 
 from app.config import get_settings
-from app.api import article_router, token_router, payment_router
+from app.api import article_router, token_router, payment_router, admin_router
 
 
 @asynccontextmanager
@@ -38,6 +38,7 @@ app.add_middleware(
 app.include_router(article_router.router, prefix="/api", tags=["article"])
 app.include_router(token_router.router, prefix="/api", tags=["tokens"])
 app.include_router(payment_router.router, prefix="/api", tags=["payment"])
+app.include_router(admin_router.router, prefix="/api", tags=["admin"])
 
 # Prometheus metrics
 Instrumentator().instrument(app).expose(app, endpoint="/api/metrics")
