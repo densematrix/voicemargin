@@ -11,7 +11,11 @@ class TranscribeService:
     
     def __init__(self):
         settings = get_settings()
-        self.client = AsyncOpenAI(api_key=settings.openai_api_key)
+        # Support custom base_url (e.g., for LLM Proxy)
+        client_kwargs = {"api_key": settings.openai_api_key}
+        if hasattr(settings, 'openai_base_url') and settings.openai_base_url:
+            client_kwargs["base_url"] = settings.openai_base_url
+        self.client = AsyncOpenAI(**client_kwargs)
     
     async def transcribe(self, audio_data: bytes, filename: str = "audio.webm") -> dict:
         """Transcribe audio data using Whisper API.

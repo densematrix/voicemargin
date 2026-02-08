@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     
     # OpenAI settings (for Whisper)
     openai_api_key: str = ""
+    openai_base_url: Optional[str] = None
     
     # Notion settings
     notion_api_key: str = ""
