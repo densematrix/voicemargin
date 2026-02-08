@@ -6,10 +6,8 @@ import {
   transcribeAudio,
   syncToNotion,
   getTokenStatus,
-  Article,
-  MarginNote,
-  TokenStatus,
 } from './api/articleApi';
+import type { Article, MarginNote, TokenStatus } from './api/articleApi';
 import { getDeviceId } from './api/fingerprint';
 
 function App() {
@@ -51,7 +49,7 @@ function App() {
     }
   }, []);
 
-  const handleTranscribe = useCallback(async (blob: Blob, highlightText: string): Promise<string> => {
+  const handleTranscribe = useCallback(async (blob: Blob, _highlightText: string): Promise<string> => {
     setIsTranscribing(true);
     
     try {

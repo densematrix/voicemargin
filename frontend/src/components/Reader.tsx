@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import { VoiceRecorder } from './VoiceRecorder';
-import { MarginNote } from '../api/articleApi';
+import type { MarginNote } from '../api/articleApi';
 
 interface ReaderProps {
   title: string;
